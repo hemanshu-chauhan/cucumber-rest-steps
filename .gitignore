@@ -26,3 +26,5 @@ target/
 /dist/
 /nbdist/
 /.nb-gradle/
+src/main/java/es/rubenjgarcia/
+src/test/java/es/rubenjgarcia/
