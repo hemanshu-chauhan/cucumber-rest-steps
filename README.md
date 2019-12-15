@@ -2,6 +2,9 @@
 
 With this library you can use [Cucumber](https://cucumber.io) to test REST endpoints
 
+### Java version 11
+### Maven version 3.7
+
 ## Steps in this library
 
 * `^I call (GET|POST|PUT|HEAD|DELETE|OPTIONS|PATCH|TRACE) "([^"]*)"$` -> Make a request to a URL with the given HTTP method
