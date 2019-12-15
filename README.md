@@ -247,7 +247,7 @@ Add dependency to your `pom.xml`
 
 ```xml
 <dependency>
-  <groupId>es.rubenjgarcia</groupId>
+  <groupId>es.api</groupId>
   <artifactId>cucumber-rest-steps</artifactId>
   <version>1.1.0-SNAPSHOT</version>
   <scope>test</scope>
@@ -262,7 +262,7 @@ import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(glue = {"es.rubenjgarcia.cucumber.rest.steps"}, features = "classpath:features")
+@CucumberOptions(glue = {"es.api.cucumber.rest.steps"}, features = "classpath:features")
 public class CucumberTestCase {
 
 }

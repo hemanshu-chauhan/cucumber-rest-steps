@@ -1,4 +1,4 @@
-package es.rubenjgarcia.cucumber.rest.steps;
+package es.api.cucumber.rest.steps;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;

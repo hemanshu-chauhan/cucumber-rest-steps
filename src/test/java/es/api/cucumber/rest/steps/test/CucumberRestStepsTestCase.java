@@ -1,4 +1,4 @@
-package es.rubenjgarcia.cucumber.rest.steps.test;
+package es.api.cucumber.rest.steps.test;
 
 import static com.github.tomakehurst.wiremock.client.WireMock.aMultipart;
 import static com.github.tomakehurst.wiremock.client.WireMock.aResponse;
@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(plugin = {"pretty", "html:target/site/cucumber"},
-    glue = {"es.rubenjgarcia.cucumber.rest.steps"},
+    glue = {"es.api.cucumber.rest.steps"},
     features = "classpath:features",
     strict = true)
 public class CucumberRestStepsTestCase {
